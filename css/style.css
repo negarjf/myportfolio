@@ -101,6 +101,9 @@ nav{
 	font-family: 'Pacifico', cursive;
 	position: relative;
 }
+.logo a:focus{
+	text-decoration:none;
+}
 .logo-underline{
 	display: inline-block;
 	width: 100%;
