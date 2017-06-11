@@ -2,7 +2,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 	height: 2000px;
 }
-a, a:hover, a:active, a:visited{
+a, a:hover, a:active, a:visited, a:focus{
 	color: #000;
 	text-decoration: none;
 }
