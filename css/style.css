@@ -111,6 +111,7 @@ nav{
 	background:#f11b1b;
 	position: absolute;
 	top: 45px;
+	left:0;
 	z-index: -1;
 }
 .nav-btn{
