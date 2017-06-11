@@ -121,7 +121,8 @@ nav{
 }
 .nav-btn:hover .line{
 	background: #f11b1b;
-	transition: all 0.35s;
+	-webkit-transition: all 0.35s;
+ 	transition: all 0.35s;
 }
 .line{
 	display: block;
@@ -130,7 +131,8 @@ nav{
 	background:#000;
 	margin: 0 auto 5px;
 	border-radius: 2px;
-	transition: all 0.35s;
+	-webkit-transition: all 0.35s;
+ 	transition: all 0.35s;
 }
 .line:last-child{
 	margin-bottom: 0;
@@ -156,11 +158,13 @@ nav{
 }
 .nav-list li:hover{
 	background: #222;
-	transition: all 0.35s;
+	-webkit-transition: all 0.35s;
+ 	transition: all 0.35s;
 }
 .nav-list li:hover a{
 	color: #f11b1b;
-	transition: all 0.35s;
+	-webkit-transition: all 0.35s;
+ 	transition: all 0.35s;
 }
 .navfixed{
 	position: fixed;
@@ -169,7 +173,7 @@ nav{
 
 
 .home{
-	background: #FFE7E4 url('../images/bg-portraitt.jpg') no-repeat center center;
+	background: #FFE7E4 url('../images/bg-portrait.jpg') no-repeat;
 	background-position: 60% 50%;
 	background-size: cover;
 	position: relative;
@@ -184,14 +188,7 @@ nav{
 }
 .welcome p{
 	display: inline-block;
-	/*font-family: 'Cutive Mono', monospace;*/
 	margin-bottom: 20px;
-}
-.welcome img{
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	filter: grayscale(1);
 }
 .highlight{
 	border-bottom: 2px solid #f11b1b;
@@ -228,12 +225,14 @@ a.custom-btn::after{
 	bottom:-150%;
 	transform:scale(0,0);
 	opacity: 0;
+	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
 a.custom-btn:hover{
 	color:#f11b1b;
 }
 a.custom-btn:hover::after{
+	-webkit-transform: scale(1,1);
 	transform: scale(1,1);
 	opacity: 1;
 
@@ -310,6 +309,7 @@ a.inline-link{
 	left:0;
 	right: 100%;
 	border-bottom: 1px solid #f11b1b;
+	-webkit-transition: all 0.35s;
 	transition: all 0.35s;
 }
 
@@ -319,6 +319,7 @@ a.inline-link{
 }
 .inline-link:hover::after{
 	right: 0;
+	-webkit-transition: all 0.35s;
 	transition: all 0.35s;
 }
 
@@ -446,12 +447,15 @@ span[class^="dot_"]{
 	font-family: 'Pacifico', cursive;
 }
 .dot_one{
+	-webkit-animation: dot_one 2s infinite linear;
 	animation: dot_one 2s infinite linear;
 }
 .dot_two{
+	-webkit-animation: dot_one 2s infinite linear;
 	animation: dot_two 2s infinite linear;
 }
 .dot_three{
+	-webkit-animation: dot_one 2s infinite linear;
 	animation: dot_three 2s infinite linear;
 }
 
@@ -528,6 +532,7 @@ span[class^="dot_"]{
  	height: 100%;
  	/*background: rgba(241,27,27,.7);*/
  	background: rgba(0,0,0,.8);
+ 	-webkit-transition: all 0.5s;
  	transition: all 0.5s;
  	padding: 40px 10px;
  	color: #fff;
@@ -536,7 +541,8 @@ span[class^="dot_"]{
 .work:hover .title{
 	top: 0;
 	bottom: 0;
-	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+ 	transition: all 0.5s;
 }
 .title h1{
 	margin-bottom: 20px;
@@ -580,7 +586,8 @@ span[class^="dot_"]{
 .links li a{
 	color: #fff;
 	font-size: 30px;
-	transition: all 0.35s;
+	-webkit-transition: all 0.35s;
+ 	transition: all 0.35s;
 }
 .links li{
 	display: inline-block;
@@ -588,7 +595,8 @@ span[class^="dot_"]{
 }
 .links li:hover a{
 	color: #f11b1b;
-	transition: all 0.35s;
+	-webkit-transition: all 0.35s;
+ 	transition: all 0.35s;
 }
 a.top{
 	display: inline-block;
@@ -602,7 +610,7 @@ a.top{
 	
 }
 a.top:hover{
-	
+	-webkit-animation: jump 0.8s;
 	animation: jump 0.8s;
 }
 
